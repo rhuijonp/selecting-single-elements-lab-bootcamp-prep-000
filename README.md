@@ -22,7 +22,7 @@ Go ahead and select the JavaScript tab and you'll see some JavaScript code
 
 ```javascript
 //Enter querySelector Code here
-var header = "ENTER HEADER CODE HERE"
+var header = document.querySelector("header")
 var linkText = "ENTER LINK TEXT CODE HERE"
 var linkHref = "ENTER LINK HREF CODE HERE"
 
@@ -53,7 +53,7 @@ The first link text is: ENTER LINK TEXT CODE HERE
 The first link href is: ENTER LINK HREF CODE HERE
 ```
 
-This is outputted by the `console.log` lines in the CodePen. The CodePen is outputting text to our Browser Console. Here is the code in the JavaScript tab of the CodePen that outputs to the Browser Console.
+This is outputted by the `console.log` lines in the CodePen. The CodePen is outputting text to our Browser Console. Here is the code in the JavaScript tab of the CodePen that outputs to the Browser Console .
 
 ```
 console.log(`The header is: ${header}`)
